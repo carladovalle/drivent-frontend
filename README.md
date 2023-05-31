@@ -1,56 +1,78 @@
-# drivent-front
+# Drivent
 
-Front-end for Driven.t, an event management solution.
+## 📑 Conteúdo
 
-## About
+-   [Descrição do Projeto](#-descricao-projeto)
+-   [Como rodar a aplicação](#%EF%B8%8F-how-to-run)
+-   [Tecnologias](#%EF%B8%8F-build-with)
+-   [Contato](#-contato)
 
-Driven.t is a web browser application with which you can manage every single aspect of your event.
+## 📌 Descrição do Projeto
+<p align="justify">Driven.t é uma plataforma para inscrição em um evento. Nela o usuário irá fazer seu cadastro, comprar seu ingresso, escolher o seu hotel, quarto e se inscrever nas atividades de maneira fácil e intuitiva. </p> 
 
-## How to run for development
+Você pode visualizar o repositório do back-end <a href="https://github.com/carladovalle/drivent-backend">aqui</a>.</p>
 
-1. Clone this repository
-2. Install all dependencies
+## ⚙️ Como rodar a aplicação
 
+1. Clone o repositório back-end através do endereço <a href="https://github.com/carladovalle/drivent-backend">aqui</a>.
+2. Clone este repositório.
+3. Instale as dependências:
 ```bash
 npm i
 ```
-
-3. Populate `.env` file based on `.env.example`. `REACT_APP_API_BASE_URL` should point to your API server (driven.t-back)
-
-4. Run the back-end in a development environment:
-
+3. Rode o front-end através do comando:
 ```bash
-npm run start
-```
-
-## Building and starting for production
-
-```bash
-npm run build
 npm start
 ```
+4. Rode o projeto:
+```bash
+npm start
+```
+5. Finalmente, acesse http://localhost:3000 no seu navegador favorito.
 
-## Running application locally or inside docker
+## 🛠️ Tecnologias
 
-`.env.development` and `.env.test` must be changed if you and to run the application locally or inside docker. You can populate files based on `.env.example` file, but you need to consider the following:
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain-wordmark.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+<img align="left" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" />
 
-- Running application locally (postgres and node):
+</br>
 
-Add your postgres credentials and make sure to create given database before running the application.
+## 📫 Contato
 
-- Running application inside docker (postgres and node):
+<div align="center">
+<img width= 200px src="https://avatars.githubusercontent.com/u/69774119?s=400&u=3e044818379a4a34965fed74a6df201694c5ec5f&v=4" alt=""/>
+  <p> <i><b>Carla Ferreira do Valle</i></b> </p>
 
-Set `POSTGRES_HOST` to `drivent-postgres-development` for `.env.development` and `drivent-postgres-test` for `.env.test` file. It is the name of the postgres container inside docker-compose file. Docker Compose will start the postgres container for you, create the database and host alias for you.
+<br /> <a href = "mailto:carlafdovalle@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/carlafvalle/" target="_blank"><img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" target="_blank"></a> 
+  
+<img width= 200px src="https://avatars.githubusercontent.com/u/76631741?v=4" alt=""/>
+  <p> <i><b>Renato da Silva Viana </i></b> </p>
 
-- Running application locally (node) but postgres is running inside docker:
+<br /> <a href = "mailto:verkylen@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/renatosv/" target="_blank"><img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" target="_blank"></a> 
+  
+<img width= 200px src="https://avatars.githubusercontent.com/u/102394029?v=4" alt=""/>
+  <p> <i><b>Dayane Carolina Oliveira </i></b> </p>
 
-Set `POSTGRES_HOST` to `localhost` for `.env.development` and `localhost` for `.env.test` file. Docker compose is configured to expose postgres container to your localhost.
+<br /> <a href = "mailto:dayanecarolina.oliveira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/dayanecarolina/" target="_blank"><img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" target="_blank"></a> 
+  
+<img width= 200px src="https://avatars.githubusercontent.com/u/90423579?v=4" alt=""/>
+  <p> <i><b> Bruno Vecchi</i></b> </p>
 
-## What to do when add new ENV VARIABLES
-
-Please notice that every ENV that should be available on browser should start with `REACT_APP_` prefix. There are several things you need to do when you add new ENV VARIABLES:
-
-- Add them to `.env.example` file
-- Add them to your local `.env` file
-- Add them to your docker-compose.yml file (just the name, not the value). Only envs listed in the environment section will be exposed to your docker container.
-- Add them (prod version) to your github repo secrets. They will be used to generate the `.env` file on deploy.
+<br /> <a href = "mailto:bno.vecchi@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/br-vecchi/" target="_blank"><img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" target="_blank"></a> 
+ 
+</div>
